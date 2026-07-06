@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.ORGANIC</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header grid-surface" id="top">
+      <a class="brand" href="#top" aria-label=".ORGANIC home">
+        <img src="ASSETS/main_logo_black.png" alt=".ORGANIC" />
+        <span class="brand-condition-hotspot" aria-hidden="true"></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#details"><span>Details</span></a>
+        <a class="presentation-trigger" href="ASSETS/PRESENTATION.pdf" aria-haspopup="dialog">
+          <span>Identity</span>
+        </a>
+        <a href="#market"><span>Market</span></a>
+        <button class="contact-trigger" type="button" aria-expanded="false">
+          <span>Contact</span>
+        </button>
+      </nav>
+
+      <button class="contact-close" type="button" aria-label="Close contact panel">
+        <span></span>
+      </button>
+
+      <div class="contact-panel" aria-hidden="true">
+        <a href="mailto:greenhouse@organic.nl">GREENHOUSE@ORGANIC.NL</a>
+        <a href="tel:+310200008742">T +31 (0)20 000 8742</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Organic synthetic garden">
+        <div class="hero-stage">
+          <p class="condition-note">*grown under controlled conditions</p>
+          <img class="hero-plants" src="ASSETS/plants_main.png" alt="" />
+          <canvas class="pixel-canvas" aria-hidden="true"></canvas>
+        </div>
+      </section>
+
+      <section class="intro-section" id="details">
+        <div class="intro-expanded">
+          <div class="intro-expanded-image greenhouse-switch">
+            <img
+              class="greenhouse-frame greenhouse-frame-base"
+              src="ASSETS/greenhouse_no_light.png"
+              alt="A glass urban greenhouse in Amsterdam at dusk"
+            />
+            <img
+              class="greenhouse-frame greenhouse-frame-light"
+              src="ASSETS/greenhouse_light.png"
+              alt="The greenhouse glowing with green and pink grow lights"
+            />
+          </div>
+          <article class="intro-expanded-copy">
+            <h2>Welcome to<br />the synthetic<br />garden</h2>
+            <p>
+              Through a collision of art, design, and technology, we expose the
+              sterile, engineered, and highly calculated mechanisms hiding
+              behind organic marketing culture. This exhibition offers a
+              multi-sensory experience where nature doesn't grow wild-it is
+              coded, monitored, and manufactured under perfect laboratory
+              conditions.
+            </p>
+            <p>
+              Everything comes to life inside a futuristic greenhouse, planted
+              in the heart of a brutalist concrete plaza in Amsterdam.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <div class="ticker-sequence">
+            <span>Agriculture</span>
+            <span>Technology</span>
+            <span>Design</span>
+            <span>Future</span>
+            <span>Biology</span>
+            <span>Fashion</span>
+            <span>People</span>
+            <span>Art</span>
+          </div>
+          <div class="ticker-sequence">
+            <span>Agriculture</span>
+            <span>Technology</span>
+            <span>Design</span>
+            <span>Future</span>
+            <span>Biology</span>
+            <span>Fashion</span>
+            <span>People</span>
+            <span>Art</span>
+          </div>
+          <div class="ticker-sequence">
+            <span>Agriculture</span>
+            <span>Technology</span>
+            <span>Design</span>
+            <span>Future</span>
+            <span>Biology</span>
+            <span>Fashion</span>
+            <span>People</span>
+            <span>Art</span>
+          </div>
+          <div class="ticker-sequence">
+            <span>Agriculture</span>
+            <span>Technology</span>
+            <span>Design</span>
+            <span>Future</span>
+            <span>Biology</span>
+            <span>Fashion</span>
+            <span>People</span>
+            <span>Art</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="dark-gallery grid-surface grid-surface-dark" id="identity">
+        <div class="gallery-pair">
+          <img src="ASSETS/coat.png" alt="A transparent coat with neon-pink cords" />
+          <img src="ASSETS/pots.png" alt="Plants growing in cubic tiled pots" />
+        </div>
+      </section>
+
+      <section class="categories" data-active="0" aria-label="Bio-tech worlds">
+        <div class="categories-copy">
+          <div class="category-heading">
+            <h2>Bio-tech<br />worlds</h2>
+            <div class="category-controls" aria-label="Category carousel controls">
+              <button
+                class="category-arrow category-arrow-prev"
+                type="button"
+                data-direction="-1"
+                aria-label="Previous category"
+              ></button>
+              <button
+                class="category-arrow category-arrow-next"
+                type="button"
+                data-direction="1"
+                aria-label="Next category"
+              ></button>
+            </div>
+          </div>
+
+          <article class="category-text" aria-live="polite">
+            <p class="kicker">// PLANTS</p>
+            <p>
+              A tropical room built as a living technological ecosystem. Organic
+              plant forms are intertwined with cables that grow like vines,
+              while liquids flow through them like an artificial life system.
+              With dense vegetation, glowing structures and immersive light, the
+              space feels like a tropical forest reimagined through technology.
+            </p>
+          </article>
+        </div>
+
+        <div class="category-visual">
+          <div class="neon-block block-large"></div>
+          <div class="neon-block block-small"></div>
+          <div class="neon-block block-wide"></div>
+          <img src="ASSETS/categories_1_cut.png" alt="Cable-like tropical leaf" />
+        </div>
+      </section>
+
+      <section class="market" id="market">
+        <div class="market-hero">
+          <img
+            src="ASSETS/outside banner.jpg?v=20260706-095138"
+            alt="Large .ORGANIC billboard in Amsterdam"
+          />
+        </div>
+        <div class="market-thumbs" aria-label="Market image selector">
+          <button class="market-thumb is-active" type="button" aria-label="Market image">
+            <img src="ASSETS/market.png" alt="" />
+          </button>
+          <button class="market-thumb" type="button" aria-label="Printer image">
+            <img src="ASSETS/printer.png" alt="" />
+          </button>
+        </div>
+      </section>
+
+      <footer class="site-footer grid-surface grid-surface-dark">
+        <div class="footer-brand">
+          <img src="ASSETS/main_logo_white.png" alt=".ORGANIC" />
+        </div>
+        <img class="sponsor-sign" src="ASSETS/logo_sign.png" alt="SIGI" />
+        <img class="sponsor-nxt" src="ASSETS/logo_nxt.png" alt="Nxt Museum" />
+        <a class="ticket-cta" href="#top">
+          <img src="ASSETS/ticket.png" alt="Buy tickets" />
+        </a>
+      </footer>
+    </main>
+
+    <aside class="ticket-bar" aria-label="Event information">
+      <span>Amsterdam</span>
+      <span>Urban Greenhouse</span>
+      <span>August 22-28.2026</span>
+      <span>10:00-18:00</span>
+    </aside>
+
+    <div class="pdf-modal" aria-hidden="true" role="dialog" aria-label="Presentation" hidden>
+      <div class="pdf-viewer">
+        <button
+          class="pdf-close pixel-arrow pixel-arrow-left"
+          type="button"
+          aria-label="Close presentation"
+        ></button>
+        <iframe title="Presentation" src="ASSETS/PRESENTATION.pdf"></iframe>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
